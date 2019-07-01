@@ -1,0 +1,47 @@
+@import 'colors';
+
+ul.cards {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+
+    header, div {
+      padding: 1em;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.15);
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    header .icon {
+      font-size: 1.1em;
+    }
+  }
+}
+
+#usp {
+  margin-top: 2em;
+}
+
+#card-webdev {
+  background-color: $brand-blue;
+}
+
+#card-automation {
+  background-color: $brand-charcoal;
+}
+
+#card-integration {
+  background-color: #a55d6b;
+}
