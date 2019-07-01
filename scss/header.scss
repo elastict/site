@@ -7,8 +7,21 @@
   }
 }
 
+body > header:after {
+  background-image: linear-gradient(25deg, transparent 65%, rgba(255, 255, 255, 0.33) 65%);
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
 body > header > section {
   display: flex;
+  position: relative;
   
   nav ul {
     padding: 0;
@@ -18,6 +31,8 @@ body > header > section {
     
     li {
       padding: 0  10px;
+      font-size: 1.1em;
+      text-transform: uppercase;
     }
   }
 }
