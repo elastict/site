@@ -4,14 +4,24 @@ main {
   h1 {
     font-size: 5em;
     line-height: 1.2em;
-    margin: 0.4em 0 0.9em 0;
+    margin: 0.4em 0 1.2em 0;
+    text-align: center;
   }
 
   h2 {
     font-size: 2em;
+    line-height: 1.4em;
+    margin: 2em 0 0.8em 0;
+    clear: both;
   }
 }
 
-#intro {
-  margin-bottom: 4em;
+#me {
+  float: right;
+  height: 314px;
+  width: 256px;
+  margin: 0 -40px 2em 2em;
+  shape-outside: url(../img/me.png);
+  shape-image-threshold: 0.5;
+  shape-margin: 2em;
 }

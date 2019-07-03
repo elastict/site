@@ -8,17 +8,22 @@
 </head>
 <body>
 
-<header>
+<header id="header">
     <section>
         <div id="logo">
             <img src="img/logo.png" alt="Elast ICT logo"/>
         </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Diensten</li>
-                <li>Over mij</li>
-                <li>Contact</li>
+                <li>
+                    <a href="#header">Home</a>
+                </li>
+                <li>
+                    <a href="#services">Diensten</a>
+                </li>
+                <li class="important">
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
     </section>
@@ -28,14 +33,24 @@
         <h1>
             Ik maak <span class="brand">software</span>
         </h1>
+        <h2>
+            Hallo, ik ben <span class="brand">Ede</span>, en ik ben freelance softwareontwikkelaar.
+        </h2>
+        <img id="me" src="img/me.png" alt="Dit ben ik"/>
         <p>
-            Hier ga ik even kort en bonding vertellen dat we vet goed en ervaren zijn.
-            Natuurlijk maken we gebruik van de modernste technieken en staat kwaliteit vooraan.
-            Onze focus is uw bedrijf. We werken vanuit de klant. Blablablabla.
+            Ik ben gespecialiseerd in het oplossen van bedrijfsproblemen door het bouwen van 
+            <strong>maatwerksoftware</strong>.
+            Met ruim 11 jaar ervaring in het vak durf ik mezelf gerust een expert te noemen.
+        </p>
+        <p>
+            Wilt u een nieuwe <strong>website of applicatie laten ontwikkelen</strong>, of zoekt u hulp bij het 
+            <strong>optimaliseren en automatiseren van uw organisatie?</strong>
+            Neem direct <a href="#contact" class="important">contact</a> met mij op en we maken een afspraak voor 
+            een vrijblijvend gesprek.
         </p>
     </section>
-    <section>
-        <h2>Onze diensten</h2>
+    <section id="services">
+        <h2>Diensten</h2>
         <p>
             Nog meer om je over te halen? Kan vast wel, maar dat komt later wel.
         </p>
@@ -81,11 +96,15 @@
             </li>
         </ul>
     </section>
+    <section id="contact">
+        <h2>Contact</h2>
+    </section>
 </main>
 <footer>
     <section>
         &copy; 2019 Elast ICT
     </section>
 </footer>
+
 </body>
 </html>
