@@ -1,0 +1,23 @@
+@mixin wide {
+  @media all and (min-width: 950px) {
+    @content
+  }
+}
+
+@mixin compact {
+  @media all and (max-width: 950px) {
+    @content
+  }
+}
+
+@mixin narrow {
+  @media all and (max-width: 700px) {
+    @content
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: 550px) {
+    @content
+  }
+}

@@ -3,6 +3,7 @@
 @import 'main';
 @import 'cards';
 @import 'footer';
+@import 'mixins';
 
 html, body {
   height: 100%;
@@ -33,12 +34,16 @@ p {
   line-height: 2em;
   text-align: justify;
 
-  a, a:visited, .brand {
-    color: $brand-blue;
+  a {
+    text-decoration: none;
+  }
+  
+  a, a:visited {
+    color: darken($brand-blue, 20%);
   }
 
   a:hover {
-    color: lighten($brand-blue, 10%);
+    color: $brand-blue;
   }
 
   a.important, a.important:visited {
@@ -52,4 +57,20 @@ p {
 
 .brand {
   color: $brand-blue;
+}
+
+.columns {
+  display: grid;
+  grid-gap: 2em;
+  &.three {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @include compact {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include narrow {
+      grid-template-columns: 1fr;
+    }
+  }
 }

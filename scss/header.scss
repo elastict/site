@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'mixins';
 
 #logo {
   flex: 1;
@@ -39,7 +40,15 @@ body > header {
           }
         }
 
+        @include narrow {
+          display: none;
+        }
+
         &.important {
+          @include narrow {
+            display: block;
+          }
+          
           a {
             background-color: lighten($important, 10%);
             color: white;
