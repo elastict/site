@@ -23,16 +23,23 @@ body {
   header, main, footer {
     padding: 2em;
 
+    @include mobile {
+      padding: 1em;
+    }
+
     section {
       max-width: 1100px;
       margin: 0 auto;
     }
   }
+  
+  @include mobile {
+    font-size: 0.8em;
+  }
 }
 
 p {
   line-height: 2em;
-  text-align: justify;
 
   a {
     text-decoration: none;
