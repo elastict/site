@@ -25,7 +25,7 @@ main {
   shape-outside: url(../img/me.png);
   shape-image-threshold: 0.5;
   shape-margin: 2em;
-  
+
   @include narrow {
     display: none;
   }

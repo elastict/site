@@ -48,7 +48,7 @@ body > header {
           @include narrow {
             display: block;
           }
-          
+
           a {
             background-color: lighten($important, 10%);
             color: white;
