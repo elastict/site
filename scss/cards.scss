@@ -19,10 +19,13 @@ ul.cards {
       text-transform: uppercase;
       text-align: center;
       font-size: 1.2em;
+      position: relative;
     }
 
     header .icon {
-      font-size: 1.1em;
+      position: absolute;
+      left: 1em;
+      opacity: 0.78;
     }
   }
 }
