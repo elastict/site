@@ -2,12 +2,12 @@
 <html lang="nl">
 <head>
     <title>Elast ICT</title>
-    <link rel="stylesheet" href="/css/base.css"/>
-    <link rel="stylesheet" href="/css/icons-embedded.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Lato:regular,bold,italic' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="/css/base.css"/>
+    <link rel="stylesheet" href="/css/icons-embedded.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:regular,bold,italic' rel='stylesheet' type='text/css'>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -15,150 +15,9 @@
 </head>
 <body>
 
-<header id="home">
-    <section>
-        <div id="logo">
-            <img src="/img/logo.png" alt="Elast ICT logo"/>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#services">Diensten</a>
-                </li>
-                <li class="important">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-</header>
-<main>
-    <section id="intro">
-        <h1>
-            Ik maak <span class="brand">software</span>
-        </h1>
-        <h2>
-            Hallo, ik ben <span class="brand">Ede</span>, en ik ben softwareontwikkelaar.
-        </h2>
-        <img id="me" src="/img/me.png" alt="Foto van mij"/>
-        <p>
-            Ik ben gespecialiseerd in het oplossen van bedrijfsproblemen door het bouwen van
-            <strong>maatwerksoftware</strong>.
-        </p>
-        <p>
-            Wilt u een nieuwe <strong>website of applicatie laten ontwikkelen</strong>, of zoekt u hulp bij het
-            <strong>optimaliseren en automatiseren van uw organisatie?</strong><br>
-            Neem direct <a href="#contact" class="important">contact</a> met mij op om een afspraak te
-            maken voor een vrijblijvend gesprek.
-        </p>
-        <h3>Werkwijze</h3>
-        <p>
-            Kwalitatief hoogstaande software leveren is belangrijk.
-            Nog belangrijker is goede communicatie en het maken van duidelijke afspraken.
-            Ik denk kritisch mee met de klant en ben sterk in het ontleden van ingewikkelde problemen.
-            Hierdoor kunnen we samen tot de beste en simpelste oplossing komen.
-            Tijdens het ontwikkelproces blijft u altijd betrokken zodat we zeker weten dat we op één lijn zitten.
-        </p>
-    </section>
-    <section id="services">
-        <h2>Diensten</h2>
-        <p>
-            Bij <strong>Elast ICT</strong> zit u goed voor al uw technische vraagstukken.
-            Neem <a href="#contact" class="important">contact</a> op om te kijken wat ik voor u
-            kan betekenen.
-        </p>
-        <ul class="cards three columns" id="usp">
-            <li id="card-webdev">
-                <header>
-                    <span class="icon icon-code"></span>
-                    Web development
-                </header>
-                <div>
-                    <p>
-                        Nieuwe interactieve webapplicaties ontwikkelen en bestaande sites en webapplicaties moderniseren
-                    </p>
-                </div>
-            </li>
-            <li id="card-automation">
-                <header>
-                    <span class="icon icon-cog"></span>
-                    Automatisering
-                </header>
-                <div>
-                    <p>
-                        Efficiënter werken en minder foutgevoelig handwerk door het optimaliseren en automatiseren van
-                        bedrijfsprocessen
-                    </p>
-                </div>
-            </li>
-            <li id="card-integration">
-                <header>
-                    <span class="icon icon-puzzle"></span>
-                    Integratie
-                </header>
-                <div>
-                    <p>
-                        Bestaande systemen naadloos laten samenwerken door middel van automatische koppelingen
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="three columns">
-            <div>
-                <h3>Algemeen</h3>
-                <p>
-                <span class="contact-elem">
-                    <span class="icon icon-phone"></span>
-                    <a href="tel:+31650122328" class="important">06 501 223 28</a>
-                </span>
-                    <br>
-                    <span class="contact-elem">
-                    <span class="icon icon-whatsapp"></span>
-                    <a href="https://wa.me/31650122328" target="_blank" rel="noopener">Whatsapp</a>
-                </span>
-                    <br>
-                    <span class="contact-elem">
-                    <span class="icon icon-mail"></span>
-                    <a href="mailto:info@elastict.nl">info@elastict.nl</a>
-                </span>
-                </p>
-            </div>
-            <div>
-                <h3>
-                    Adres
-                </h3>
-                <p>
-                    Meerpaal 48<br>
-                    9732 AC Groningen
-                </p>
-            </div>
-            <div>
-                <h3>
-                    Gegevens
-                </h3>
-                <p>
-                    <span class="contact-elem">
-                    <strong class="icon">KvK</strong>
-                    <a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=750497240000">
-                        75049724
-                    </a>
-                    </span>
-                </p>
-            </div>
-        </div>
-    </section>
-</main>
-<footer>
-    <section>
-        &copy; 2019 Elast ICT
-    </section>
-</footer>
+{% include 'header' %}
+{% include 'main' %}
+{% include 'footer' %}
 
 </body>
 </html>

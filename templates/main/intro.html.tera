@@ -1,0 +1,26 @@
+<h1>
+    Ik maak <span class="brand">software</span>
+</h1>
+
+<h2>
+    Hallo, ik ben <span class="brand">Ede</span>, en ik ben softwareontwikkelaar.
+</h2>
+<img id="me" src="/img/me.png" alt="Foto van mij"/>
+<p>
+    Ik ben gespecialiseerd in het oplossen van bedrijfsproblemen door het bouwen van <strong>maatwerksoftware</strong>.
+</p>
+<p>
+    Wilt u een nieuwe <strong>website of applicatie laten ontwikkelen</strong>, of zoekt u hulp bij het
+    <strong>optimaliseren en automatiseren van uw organisatie?</strong><br>
+    Neem direct <a href="#contact" class="important">contact</a> met mij op om een afspraak te maken voor een 
+    vrijblijvend gesprek.
+</p>
+
+<h3>Werkwijze</h3>
+<p>
+    Kwalitatief hoogstaande software leveren is belangrijk.
+    Nog belangrijker is goede communicatie en het maken van duidelijke afspraken.
+    Ik denk kritisch mee met de klant en ben sterk in het ontleden van ingewikkelde problemen.
+    Hierdoor kunnen we samen tot de beste en simpelste oplossing komen.
+    Tijdens het ontwikkelproces blijft u altijd betrokken zodat we zeker weten dat we op één lijn zitten.
+</p>

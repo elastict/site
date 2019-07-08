@@ -1,0 +1,11 @@
+<main>
+    <section id="intro">
+        {% include 'main/intro' %}
+    </section>
+    <section id="services">
+        {% include 'main/services' %}
+    </section>
+    <section id="contact">
+        {% include 'main/contact' %}
+    </section>
+</main>

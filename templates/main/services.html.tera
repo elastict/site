@@ -1,0 +1,42 @@
+<h2>Diensten</h2>
+<p>
+    Bij <strong>Elast ICT</strong> zit u goed voor al uw technische vraagstukken.
+    Neem <a href="#contact" class="important">contact</a> op om te kijken wat ik voor u kan betekenen.
+</p>
+
+<ul class="cards three columns" id="usp">
+    <li id="card-webdev">
+        <header>
+            <span class="icon icon-code"></span>
+            Web development
+        </header>
+        <div>
+            <p>
+                Nieuwe interactieve webapplicaties ontwikkelen en bestaande sites en webapplicaties moderniseren
+            </p>
+        </div>
+    </li>
+    <li id="card-automation">
+        <header>
+            <span class="icon icon-cog"></span>
+            Automatisering
+        </header>
+        <div>
+            <p>
+                Efficiënter werken en minder foutgevoelig handwerk door het optimaliseren en automatiseren van
+                bedrijfsprocessen
+            </p>
+        </div>
+    </li>
+    <li id="card-integration">
+        <header>
+            <span class="icon icon-puzzle"></span>
+            Integratie
+        </header>
+        <div>
+            <p>
+                Bestaande systemen naadloos laten samenwerken door middel van automatische koppelingen
+            </p>
+        </div>
+    </li>
+</ul>
