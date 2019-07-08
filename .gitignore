@@ -1,1 +1,5 @@
 static/css/base.css*
+
+# Rust
+/target
+**/*.rs.bk

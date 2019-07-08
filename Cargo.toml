@@ -1,0 +1,7 @@
+[package]
+name = "elastict_site"
+version = "0.1.0"
+authors = ["Ede Meijer <ede@elastict.nl"]
+edition = "2018"
+
+[dependencies]
