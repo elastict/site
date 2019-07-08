@@ -1,5 +1,5 @@
 [package]
-name = "elastict_site"
+name = "elast-site"
 version = "0.1.0"
 authors = ["Ede Meijer <ede@elastict.nl"]
 edition = "2018"

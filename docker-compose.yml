@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  elast-site:
+    build:
+      context: .
+    image: docker.elast.nl/elast/elast-site:0.1.0
+    ports:
+      - "8000:8000"
