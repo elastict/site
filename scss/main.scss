@@ -1,4 +1,5 @@
 @import "mixins";
+@import "colors";
 
 main {
   flex: 1;
@@ -28,5 +29,23 @@ main {
 
   @include narrow {
     display: none;
+  }
+}
+
+span.contact-elem {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 1em 0 0;
+  line-height: 2.5em;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.6) inset;
+  
+  .icon {
+    background-color: $brand-charcoal;
+    color: white;
+    display: inline-block;
+    padding: 0 0.5em;
+    margin: 0 0.5em 0 0;
   }
 }
