@@ -1,13 +1,11 @@
-<h1>
-    Ik maak <span class="brand">software</span>
-</h1>
+<h1>Ik maak <span class="brand">software</span></h1>
 
 <h2>
-    Hallo, ik ben <span class="brand">Ede</span>, en ik ben softwareontwikkelaar.
+    Hallo, mijn naam is <span class="brand">Ede</span>.
 </h2>
 <img id="me" src="/img/me.png" alt="Foto van mij"/>
 <p>
-    Ik ben gespecialiseerd in het oplossen van bedrijfsproblemen door het bouwen van <strong>maatwerksoftware</strong>.
+    Mijn specialisatie is het oplossen van bedrijfsproblemen door het bouwen van <strong>maatwerksoftware</strong>.
 </p>
 <p>
     Wilt u een nieuwe <strong>website of applicatie laten ontwikkelen</strong>, of zoekt u hulp bij het

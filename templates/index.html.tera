@@ -13,10 +13,8 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-
 {% include 'header' %}
 {% include 'main' %}
 {% include 'footer' %}
-
 </body>
 </html>
