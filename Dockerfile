@@ -16,19 +16,19 @@ ENV OPENSSL_LIB_DIR=/usr/local/ssl/lib \
     OPENSSL_STATIC=1
 
 # Install Rust toolchain
-RUN curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
 ENV PATH=/root/.cargo/bin:$PATH
 
 WORKDIR /code
 
 # Run dummy build just to download the registry in a separate layer
 RUN mkdir src && echo "// dummy file" > src/lib.rs
+ADD rust-toolchain rust-toolchain
 ADD Cargo.toml.dummy Cargo.toml
 RUN cargo build
 
 # Install dependencies
 ADD Cargo.lock Cargo.toml /code/
-RUN cargo build
 RUN cargo build --release
 
 # Actually build the src
