@@ -3,7 +3,7 @@
 <h2>
     Hallo, mijn naam is <span class="brand">Ede</span>.
 </h2>
-<img id="me" src="/img/me.png" alt="Foto van mij"/>
+{# <img id="me" src="/img/me.png" alt="Foto van mij"/> #}
 <p>
     Mijn specialisatie is het oplossen van bedrijfsproblemen door het bouwen van <strong>maatwerksoftware</strong>.
 </p>
