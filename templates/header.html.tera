@@ -1,4 +1,8 @@
 <header id="home">
+    <a id="github-link" href="https://github.com/elastict/site" title="View code on GitHub">
+        <span class="icon-github"></span>
+    </a>
+    
     <section>
         <div id="logo">
             <img srcset="/img/logo@1x.png, /img/logo@1.5x.png 1.5x, /img/logo@2x.png 2x, /img/logo@3x.png 3x"

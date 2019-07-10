@@ -10,6 +10,20 @@
   }
 }
 
+#github-link {
+  position: absolute;
+  right: 1em;
+  font-size: 2em;
+  
+  &, &:visited {
+    color: #555;
+  }
+  
+  &:hover {
+    color: black;
+  }
+}
+
 body > header {
   & > section {
     display: flex;
