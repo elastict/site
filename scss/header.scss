@@ -12,7 +12,7 @@
 
 #github-link {
   font-size: 28px;
-  margin-left: 5px;
+  margin-left: 1em;
   
   &, &:visited {
     color: #999;
@@ -22,15 +22,19 @@
     color: black;
   }
 
-  @include narrow {
+  @include mobile {
     display: none;
+  }
+  
+  @include extrawide {
+    position: absolute;
+    right: 1em;
   }
 }
 
 body > header {
   & > section {
     display: flex;
-    position: relative;
 
     nav ul {
       padding: 0;

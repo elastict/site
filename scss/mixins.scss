@@ -1,5 +1,13 @@
+$width: 1300px;
+
+@mixin extrawide {
+  @media all and (min-width: $width) {
+    @content
+  }
+}
+
 @mixin wide {
-  @media all and (min-width: 950px) {
+  @media all and (max-width: $width) {
     @content
   }
 }
