@@ -1,10 +1,12 @@
 #![feature(proc_macro_hygiene, decl_macro)]
 
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
 
-use rocket_contrib::templates::Template;
 use std::collections::HashMap;
+
 use rocket_contrib::serve::StaticFiles;
+use rocket_contrib::templates::Template;
 
 #[get("/")]
 fn index() -> Template {
