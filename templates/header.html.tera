@@ -1,7 +1,5 @@
 <header id="home">
-    <a id="github-link" href="https://github.com/elastict/site" title="View code on GitHub">
-        <span class="icon-github"></span>
-    </a>
+    
     
     <section>
         <div id="logo">
@@ -21,5 +19,8 @@
                 </li>
             </ul>
         </nav>
+        <a id="github-link" href="https://github.com/elastict/site" title="View code on GitHub">
+            <span class="icon-github"></span>
+        </a>
     </section>
 </header>

@@ -11,16 +11,19 @@
 }
 
 #github-link {
-  position: absolute;
-  right: 1em;
-  font-size: 2em;
+  font-size: 28px;
+  margin-left: 5px;
   
   &, &:visited {
-    color: #555;
+    color: #999;
   }
   
   &:hover {
     color: black;
+  }
+
+  @include narrow {
+    display: none;
   }
 }
 
@@ -68,7 +71,7 @@ body > header {
             color: white;
 
             &:hover {
-              background-color: lighten($important, 20%);
+              background-color: lighten($important, 15%);
             }
           }
         }
