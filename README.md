@@ -2,13 +2,13 @@
 
 This repository contains the code for the [Elast ICT website](https://elastict.nl).
 
-Tech:
+**Tech**
 - Rust server with [Rocket](https://rocket.rs/)
 - SCSS compiled with [Sass](https://sass-lang.com/)
 - [Tera](https://github.com/Keats/tera) HTML templates
 - Packaged with Docker
 
-### Development
+## Development
 
 **Requirements**
 
